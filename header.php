@@ -8,9 +8,11 @@
   <link rel="stylesheet" href='css/style.css'
 </head>
 <body>
-  <ul class="nav nav-tabs">
-    <li><a href="index.php">Home</a></li>
-    <li><a href="about.php">About</a></li>
-    <li><a href="shop.php">Shop</a></li>
-    <li><a href="cart.php">Cart</a></li>
-  </ul>
+  <nav class='navbar navbar-bottom'>
+    <ul class="nav nav-tabs">
+      <li><a href="index.php">Home</a></li>
+      <li><a href="about.php">About</a></li>
+      <li><a href="shop.php">Shop</a></li>
+      <li><a href="cart.php">Cart</a></li>
+    </ul>
+  </nav>
