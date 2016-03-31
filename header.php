@@ -8,7 +8,7 @@
   <link rel="stylesheet" href='css/style.css'
 </head>
 <body>
-  <nav class='navbar navbar-bottom'>
+  <nav class='navbar navbar-default navbar-fixed-top'>
     <ul class="nav nav-tabs">
       <li><a href="index.php">Home</a></li>
       <li><a href="about.php">About</a></li>
