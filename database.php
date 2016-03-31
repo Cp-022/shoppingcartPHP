@@ -3,7 +3,7 @@ $database_config = parse_ini_file("config.ini");
 if($database_config['debug']){
   echo "<pre>";
   print_r( $database_config);
-  echo "</pre>"
+  echo "</pre>";
 }
 try {
   $conn = new PDO("mysql:host=".$database_config['host'].
