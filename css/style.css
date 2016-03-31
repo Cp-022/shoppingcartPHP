@@ -3,7 +3,7 @@
 }
 
 #topotron{
-  background-image :url(../img/tree.jpg);
+  background-image:url(../img/tree.jpg);
   background-size: cover;
   height:500px;
 }
