@@ -6,9 +6,9 @@
 
     <?php
 
-    $query = "SELECT * FROM cart_producten";
-    $query_result = $con->query( $query);
-    $results_array = $query_result->fetchAll(PD::FETCH_ASSOC);
+    $query = "SELECT * FROM Cart_producten";
+    $query_result = $conn->query( $query);
+    $result_array = $query_result->fetchAll(PDO::FETCH_ASSOC);
     if($database_config['debug']){
       echo "<pre>";
       print_r( $database_config);
