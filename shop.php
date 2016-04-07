@@ -18,8 +18,8 @@
     foreach ( $result_array as $product) {
       ?>
       <div class="col-md-r col-x-12 productlisting">
-        <h2><?php echo $product['name'];?></h2>
-        <p> € <?php echo $product['price'];?></p>
+        <h2><?php echo $product['Naam'];?></h2>
+        <p> € <?php echo $product['Prijs'];?></p>
         <a href="./cart.php?pid=<?php echo $product['id']; ?>">Add to cart</a>
       </div>
       <?php
