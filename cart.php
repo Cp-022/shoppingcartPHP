@@ -62,5 +62,16 @@ if ($database_config['debug']){
         <?php
       }
     } ?>
-<!-- BODY ABOVE -->
+
+<div class="row">
+  <form action='bestelling.php' method='POST'>
+    <div class='form-group'>
+      <input placeholder='name' type='name' name='name'>
+      <input placeholder='email' type='email' name='email'>
+      <input class='btn btn-default' type='submit' value='Order'>
+    </div>
+  </form>
+</div>
+
+      <!-- BODY ABOVE -->
 <?php include 'footer.php'; ?>
